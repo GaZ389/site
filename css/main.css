@@ -1,0 +1,319 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x:hidden;
+}
+
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.top {
+	min-height: 700px;
+	background-color: #EEEFF1;
+	margin: auto;
+	margin-bottom: 120px;
+}
+
+.head{
+	width: 100%;
+	height: 110px;
+}
+
+.head_logo{
+	float: left;
+	max-width: 100px;
+}
+
+.logo{
+    margin-top: 40px;
+    width: 85px;
+	height: 38px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.head_ann{
+	height: 40px;
+	float: right;
+	margin-top: 50px;
+}
+
+.head-item{
+	float: right;
+	min-height: 30px;
+	margin-left: 40px;
+	color: black;
+}
+
+.head_2{
+	margin-top: 160px;
+}
+
+.pc{
+	float: left;
+	margin-left: 100px;
+	max-width: 357px;
+	max-height: 233.7px;
+}
+
+.head_2_text{
+	margin-left: 120px;
+	float: left;
+	max-width: 485px;
+}
+
+.head_2_lorem{
+	margin-top: 60px;
+}
+
+p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+	
+}
+
+.button{
+	margin-top: 55px;
+	width: 225px;
+	height: 65px;
+	left: 975px;
+	top: 482px;
+	background: #34547A;
+	border: none;
+	color: #EEEFF1;
+}
+
+.button:hover{
+	color: gray;
+}
+
+.onas{
+	margin: 0 auto;
+	text-align: center;
+	max-width: 500px;
+	min-height: 246px;
+}
+
+.project{
+	width: 100%;
+	min-height: 250px;
+	left: 0px;
+	top: 1059px;
+	background: #34547A;
+	text-align: center;
+}
+
+.numbers{
+	max-width: 141px;
+	max-height: 50px;
+	margin-top: 100px;
+}
+
+.line{
+	width: 445px;
+	height: 4px;
+	left: 386px;
+	top: 1628px;
+	background: #C4C4C4;
+	margin-bottom: 30px;
+}
+
+.line_b{
+	width: 349.36px;
+	height: 4px;
+	left: 386px;
+	top: 1628.24px;
+	background: #34547A;
+}
+
+.line_main{
+	min-height: 653px;
+}
+
+.my{
+	margin-top: 204px;
+	margin-bottom: 50px;
+}
+
+.photo{
+	max-width: 555px;
+	max-height: 450px;
+	max-left: 981px;
+	max-top: 1411px;
+	margin-top: 102px;
+}
+
+.video_main{
+	text-align: center;
+	min-height: 1004px;
+	
+}
+
+.back{
+	background: #EEEFF1;
+}
+
+.video_text{
+	margin: 0 auto;
+	max-width: 500px;
+	min-height: 140px;
+}
+
+.my_work{
+	margin-top: 100px;
+}
+
+.pictures_image{
+	width: 476px;
+	height: 960px;
+}
+
+.image{
+	width: 476px;
+	height: 480px;
+}
+
+.image:hover{
+	width: 580px;
+	height: 580px;
+	margin: -50px 0px 0px -50px;
+	transition: 0.5s;
+	position: relative;
+}
+
+.pictures{
+	min-height: 1010px;
+	max-width: 1900;
+}
+
+.img{
+	width: 476px;
+	height: 480px;
+}
+
+.microsoft{
+	min-height: 292px;
+}
+
+.micro{
+	margin-top: 72px;
+	
+}
+
+.container_have_site{
+	text-align: center;
+	background: #EEEFF1;
+	min-height: 762px;
+}
+
+.have_site{
+	padding-top: 100px;
+}
+
+.form{
+	margin: 0 auto;
+	max-width: 540px;
+}
+
+.input{
+	float: left;
+	width: 255px;
+	height: 50px;
+	padding: 15px 15px;
+}
+
+.margin-right{
+	margin-right: 30px;
+}
+
+.message{
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-bottom: 120px;
+	width: 540px;
+	max-width: 540;
+	height: 175px;
+}
+
+.footer{
+	background: #34547A;
+	min-height: 151px;
+}
+
+.footer_text{
+	padding-top: 50px;
+	color: white;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.footer_text_p{
+	padding-top: 20px;
+	width: 193px;
+	height: 12px;
+	color: white;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.vk{
+	top: 21.47%;
+	bottom: 21.47%;
+	float: right;
+	margin-top: -45px;
+}
+
+.modal {
+    display: none;
+    background: #337AB7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+.modal_vis {
+    display: block;
+}
+.body_block {
+    overflow: hidden;
+    margin-right: 17px;
+}
+#close_modal {
+    color: #BFE2FF;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Times, sans-serif;
+    border-radius: 50%;
+    border: 4px solid #BFE2FF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    transition: all 0.6s;
+    box-sizing: content-box;
+}
+#close_modal:hover {
+    color: #FFF;
+    transform: rotate(135deg);
+}
+.modal_txt {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    background: #FFF;
+    padding: 30px;
+    margin: 100px auto;
+    max-width: 800px;
+}

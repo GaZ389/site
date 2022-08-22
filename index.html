@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My_site</title>
+
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div id="modal" class="modal bounceIn">
+    <div id="close_modal">+</div>
+    <div class="modal_txt"><form enctype="multipart/form-data"  method="POST" id="form" onsubmit="send(event, 'mail.php')" class="form">
+                    <input class="input margin-right" type="text" name="name" placeholder="Ваше имя">
+                    <input class="input" type="email" name="email" placeholder="Ваша почта">
+                    <input class="message" type="text" name="text" placeholder="Сообщение">
+                    <button type="submit" class="button">Отправить</button>
+
+                </form></div>
+</div>
+
+<section class="top">
+    <div class="container">
+        <div class="row">
+            <div class="head">
+                <div class="head_logo col-md-2">
+                <img src="image/WD.png" class="logo">
+                </div>      
+                <div class="head_ann col-md-10">
+                    <div class="head-item"><a href="#phone" class="head-item">КОНТАКТЫ</a></div>
+                    <div class="head-item"><a href="#proc" class="head-item">ПРОЦЕСС</a></div>
+                    <div class="head-item"><a href="#work" class="head-item">РАБОТЫ</a></div>
+                    <div class="head-item"><a href="#me" class="head-item">ОБ&nbspАВТОРЕ</a></div>
+                    <div class="head-item"><a href="#" class="head-item">ГЛАВНАЯ</a></div>                                               
+                </div>        
+            </div>
+        </div>
+        <div class="row">        
+                <div class="head_2">
+                    <div class="col-md-5 pc">
+                        <img src="image/Frame.png" class="">
+                    </div>
+                    <div class="head_2_text col-md-7">
+                        <h1 class="head_2_title">Дизайн и верстка</h1>
+                        <div class="head_2_lorem"><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p></div>
+                        <form class="head_2_button">
+                            <a class="open_modal button" href="#open"><button class="button">Написать мне (modal window)</button></a>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="">
+            <a name="me"></a>
+            <div class="onas col-md-12">
+                <h2>Обо мне</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+                  на латинице с начала XVI века.</p>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div class="project">
+    <img class="numbers" src="image/numbers__item.png">
+    <img class="numbers" src="image/numbers__item.png">
+    <img class="numbers" src="image/numbers__item.png">
+    <img class="numbers" src="image/numbers__item.png">
+    <img class="numbers" src="image/numbers__item.png">
+    <img class="numbers" src="image/numbers__item.png">
+</div>
+
+<div class="container">
+    <div class="row line_main">
+        <div class="col-md-6">
+            <h2 class="my">Мои навыки</h2>
+            <p>Adobe Photoshop</p>
+            <div class="line"><div class="line_b"></div></div>
+            <p>Adobe Photoshop</p>
+            <div class="line"><div class="line_b"></div></div>
+            <p>Adobe Photoshop</p>
+            <div class="line"><div class="line_b"></div></div>
+        </div>
+        <div class="col-md-6">
+            <img class="photo" src="image/Photo.png">
+        </div>
+    </div>
+</div>
+<div class="back">
+    <div class="container row">
+        <div class="video_main col-md-12">
+                <a name="proc"></a>
+                <h2 class="my_work">Как я работаю</h2>
+                <p class="video_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+                  на латинице с начала XVI века.</p>
+
+                <iframe width="100%" height="70%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <!--  <iframe width="1110" height="600" src="https://www.youtube.com/embed/YlpkDVUyhVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+    </div>
+</div>
+
+<div class="pictures">
+    <dic class="row">
+        <a name="work"></a>
+        <div class="col-md-4 pictures_image">
+            <div class="img"><img class="image" src="image/1.png"></div>
+            <div class="img"><img class="image" src="image/2.png"></div>
+        </div>
+        <div class="col-md-4 pictures_image">
+            <div class="img"><img class="image" src="image/2.png"></div>
+            <div class="img"><img class="image" src="image/1.png"></div>
+        </div>
+        <div class="col-md-4 pictures_image">
+            <div class="img"><img class="image" src="image/1.png"></div>
+            <div class="img"><img class="image" src="image/2.png"></div>
+        </div>
+        <div class="col-md-4 pictures_image">
+            <div class="img"><img class="image" src="image/2.png"></div>
+            <div class="img"><img class="image" src="image/1.png"></div>
+        </div>
+    </dic>
+</div>
+
+<div class="container microsoft">
+    <img src="image/microsoft.png" class="micro">
+    <img src="image/microsoft.png" class="micro">
+    <img src="image/microsoft.png" class="micro">
+    <img src="image/microsoft.png" class="micro">
+</div>
+
+<div class="container_have_site">
+    <div class="container">
+        <a name="phone"></a>
+        <h2 class="have_site" id="#phone">Хотите веб-сайт?</h2>
+            <p class="video_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
+            на латинице с начала XVI века.
+            </p>
+            <div>
+                <form enctype="multipart/form-data"  method="POST" id="form" onsubmit="send(event, 'mail.php')" class="form">
+                    <input class="input margin-right" type="text" name="name" placeholder="Ваше имя">
+                    <input class="input" type="email" name="email" placeholder="Ваша почта">
+                    <input class="message" type="text" name="text" placeholder="Сообщение">
+                    <button type="submit" class="button">Отправить</button>
+
+                </form>
+            </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div>
+            <h3 class="footer_text">Иванов Иван</h3>
+            <p class="footer_text_p">(с) 2018. Все права защищены.</p>
+            <a href="https://www.vk.com" class="vk"><img src="image/vk.png"></a>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
